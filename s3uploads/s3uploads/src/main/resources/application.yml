@@ -1,0 +1,15 @@
+cloud:
+  aws:
+#    credentials:
+#      
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+
+application:
+  bucket:
+    name: fileuploadsbucket
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileUploadS3</title>
+</head>
+<body>
+    <h2>File Upload:</h2>
+    <form method="POST" action="/file/upload" enctype="multipart/form-data">
+<!--        <label for="path">Folder path:</label>-->
+<!--        <input type="text" id="path" name="path"><br><br>-->
+        <input type="file" name="file" multiple required>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
